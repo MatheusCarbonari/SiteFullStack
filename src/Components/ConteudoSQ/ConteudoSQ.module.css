@@ -1,0 +1,98 @@
+/************************Div Container************************/
+.divContainerSobreQualidade{
+    margin: 5rem 2rem;
+    width: 70%;
+    height: 28.19rem;
+    background-color: var(--cor-primaria-preto);
+}
+
+/************************Div de Cima************************/
+.divPrimaria{
+    display: flex;
+    align-items: top;
+    gap: 1rem;
+    width: 100%;
+    height: 50%;
+    background-color: var(--cor-vermelha);
+}
+
+.article{
+    margin-top: 2rem;
+}
+
+.imagemSobreQualidade{
+    width: 80%;
+    height: 100%;
+}
+
+.divPrimaria p{
+    font-family: var(--font-inter);
+    font-size: .8rem;
+    color: var(--cor-branca);
+}
+
+.divPrimaria h2{
+    font-family: var(--font-inter);
+    font-weight: 800;
+    margin-bottom: .9rem;
+    color: var(--cor-branca);
+}
+
+/************************Div de Baixo************************/
+.divSecundaria{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 3rem;
+}
+
+.divSecundaria article{
+    width: 50%;
+}
+
+.divSecundaria p{
+    font-family: var(--font-inter);
+    font-size: .8rem;
+    color: var(--cor-branca);
+}
+
+.divSecundaria h2{
+    font-family: var(--font-inter);
+    font-weight: 800;
+    margin-bottom: .7rem;
+    color: var(--cor-vermelha);
+}
+
+/************************************Responsividade*************************************/
+
+@media screen and (max-width: 480px){
+
+    .divContainerSobreQualidade{
+        width: 85%;
+        background-color: var(--cor-vermelha);
+    }
+
+    .divPrimaria{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .imagemSobreQualidade{
+        width: 100%;
+        height: 50%;
+    }
+
+    .article{
+        height: 50%;
+        margin: 0 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .divSecundaria{
+        display: none;
+    }
+
+}

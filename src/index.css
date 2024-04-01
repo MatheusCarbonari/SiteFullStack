@@ -1,0 +1,24 @@
+/******************Zerando CSS padrão*******************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/******************Variaveis CSS *******************/
+:root {
+  --cor-primaria-preto: #000000;
+  --cor-primaria-cinza: #D9D9D9;
+  --cor-branca: #FFFFFF;
+  --cor-vermelha: #FC0808;
+
+  --font-inter: 'Inter', sans-serif;
+  --font--italian: "Italianno", "cursive";
+}
+
+/****************** CSS padrao do body *******************/
+body {
+  color: var(--paleta-primaria-preto);
+  font-size: 16px;
+}

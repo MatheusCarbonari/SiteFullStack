@@ -1,0 +1,104 @@
+/***************Header****************/
+.headerContainer{
+    width: 100%;
+    height: 7rem;
+    background-color: var(--cor-primaria-preto);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/***************Logo****************/
+.divLogo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--font--italian);
+    color: var(--cor-branca);
+    font-size: 2rem;
+    line-height: 1.2rem;
+    margin-left: 2rem;
+}
+
+.ciaLogo{
+    color: var(--cor-vermelha);
+}
+
+/***************Input de Pesquisa****************/
+
+.campoDePesquisa{
+    width: 25rem;
+    height: 2.3rem;
+    padding: 0.2rem;
+}
+
+.campoDePesquisa::placeholder {
+    color: var(--paleta-primaria-preto);
+}
+
+.botaoDePesquisa{
+    width: 5rem;
+    height: 2.2rem;
+    border: 1px solid var(--cor-branca);
+    border-radius: 5px;
+    background-color: var(--cor-primaria-preto);
+    color: var(--cor-branca);
+    transition: .5s;
+}
+
+.botaoDePesquisa:hover{
+    background-color: var(--cor-branca);
+    color: var(--cor-primaria-preto);
+}
+
+/***************Menu de Opções****************/
+.listaMenu{
+    display: flex;
+    flex-direction: row;
+}
+
+.navLinkMenu{
+    font-family: var(--font--italian);
+    font-size: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: var(--cor-branca);
+    transition: .5s;
+}
+
+.navLinkMenu:hover{
+    color: var(--cor-vermelha);
+    text-decoration: underline;
+}
+
+/************************************Responsividade*************************************/
+
+@media screen and (max-width: 480px){
+
+    .inputDePesquisa{
+        display: none;
+    }
+
+    .headerContainer{
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .divLogo{
+        margin-left: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .listaMenu{
+        align-items: center;
+    }
+
+    .ciaLogo{
+        display: none;
+    }
+
+    .Elogo{
+        display: none;
+    }
+
+}

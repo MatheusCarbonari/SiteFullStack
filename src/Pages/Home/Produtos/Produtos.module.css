@@ -1,0 +1,18 @@
+.divCards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--cor-vermelha);
+    width: 80%;
+    height: 100%;
+}
+
+/************************************Responsividade*************************************/
+
+@media screen and (max-width: 480px){
+
+    .responsiveOut{
+        display: none;
+    }
+
+}

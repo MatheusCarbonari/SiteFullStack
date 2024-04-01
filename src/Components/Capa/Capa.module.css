@@ -1,0 +1,12 @@
+.divContainerCapa{
+    background-image: url("./img/carnes2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/************************************Responsividade*************************************/
+@media screen and (max-width: 480px){
+
+}

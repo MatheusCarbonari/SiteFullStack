@@ -1,0 +1,21 @@
+.sectionHome{
+    width: 100%;
+    height: 100vh;
+}
+
+.divContainerCapa{
+    height: 34rem;
+}
+
+.divProdutos{
+    background-color: var(--cor-vermelha);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/************************************Responsividade*************************************/
+
+@media screen and (max-width: 480px){
+
+}

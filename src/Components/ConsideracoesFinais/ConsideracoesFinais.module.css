@@ -1,0 +1,88 @@
+/**********************Div Principal**********************/
+.divContainerConsideracoesFinais {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2.5rem 1.5rem;
+}
+
+/**********************Div Contato**********************/
+.divContato{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+/**********************div telefone**********************/
+.divTelefone{
+    width: 50%;
+    align-self: center;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+}
+
+.divTelefone p {
+    font-size: 1.8rem;
+}
+
+.phoneIcon{
+    color: var(--cor-vermelha);
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+/**********************Div localização**********************/
+.divLocalizacao{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.divEndereco{
+    width: 50%;
+    align-self: center;
+}
+
+.divEndereco p{
+    font-family: var(--font-inter);
+    text-align: center;
+}
+
+/**********************Titulos(h2)**********************/
+.titleConsideracoesFinais {
+    font-family: var(--font--italian);
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+/************************************Responsividade*************************************/
+
+@media screen and (max-width: 480px){
+
+    .divContainerConsideracoesFinais{
+        flex-direction: column;
+    }
+
+    .divContato{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .divTelefone{
+        width: 100%;
+    }
+
+    .divLocalizacao{
+        width: 100%;
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    .divEndereco{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,53 @@
+/******************Div e osicionamento******************/
+.containerTextoPadrao{
+    width: 30rem;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    margin: 2rem;
+}
+
+.mandarDireita{
+    left: 55%;
+}
+
+/******************Texto******************/
+.textoPadrao{
+    color: var(--cor-branca);
+    font-family: var(--font-inter);
+    font-size: 1.3rem;
+}
+
+/******************Botão******************/
+.botaoTextoPadrao{
+    margin: 1rem 1rem 1rem 0;
+    width: 50%;
+    height: 3rem;
+    border: 1px solid var(--cor-primaria-preto);
+    background-color: var(--cor-vermelha);
+    color: var(--cor-branca);
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.botaoTextoPadrao:hover{
+    background-color: #fd4545;
+    color: var(--cor-primaria-preto);
+}
+
+/************************************Responsividade*************************************/
+
+@media screen and (max-width: 480px){
+
+    .mandarDireita{
+        display: none;
+    }
+
+    .containerTextoPadrao{
+        width: auto;
+        top: 40%;
+    }
+
+}

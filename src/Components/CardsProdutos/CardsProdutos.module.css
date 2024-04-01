@@ -1,0 +1,61 @@
+.containerCardProduto{
+    flex-basis: calc(25%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 14.5rem;
+    height: 21rem;
+    border: 1px solid var(--cor-primaria-preto);
+    margin: 2rem;
+}
+
+/**********************Div com imagem**********************/
+.divImagemCardProduto{
+    width: 100%;
+    height: 70%;
+}
+
+.divImagemCardProduto img{
+    width: 100%;
+    height: 100%;
+}
+
+/**********************Div com titulo e descrição**********************/
+.descricaoCardProduto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 31%;
+    padding:.5rem;
+    font-family: var(--font-inter);
+    color: var(--cor-branca);
+    background-color: var(--cor-primaria-preto);
+}
+
+.descricaoCardProduto h3{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.descricaoCardProduto {
+    font-size: .7rem;   
+}
+
+/************************************Responsividade*************************************/
+
+@media screen and (max-width: 480px){
+
+    .containerCardProduto{
+        flex-basis: calc(100%);
+        height: 21rem;
+        background-color: var(--cor-primaria-preto);
+    }
+
+    .descricaoCardProduto{
+        height: 35%;
+        justify-content: center;
+        padding: 0 1rem;
+    }
+
+}

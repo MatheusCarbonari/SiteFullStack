@@ -1,0 +1,21 @@
+.footerContainer{
+    background-color: var(--cor-primaria-preto);
+    text-align: center;
+    padding: 1rem;
+}
+
+.footerText{
+    font-size: var(--font-inter);
+    color: var(--cor-branca);
+    font-size: .7rem;
+}
+
+/************************************Responsividade*************************************/
+
+@media screen and (max-width: 480px){
+
+    .footerText{
+        font-size: .4rem;
+    }
+
+}
